@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'roboto', arial, Helvetica, sans-serif;
+}
+.cabeca{
+    padding: 1% 15% 0% 15%;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+.navega{
+    display: flex;
+    list-style: none;
+}
+.prima {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 6% 15% 6% 15%;
+    align-items: center;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.maintxt {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.foto{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.556);
+    height: 250px;
+    width: 550px;
+}
+.b1{
+    border-radius: 5px;
+    color: #e5e7eb;
+    font-size: 16px;
+    font-weight: bolder;
+    border: none;
+    background-color: #3882f6;
+    padding: 0.5% 2% 0.5% 2%;
+}
+.b1:hover{
+    background-color: #e5e7eb;
+    color: #3882f6;
+}
+.segunda{
+    background-color: #e5e7eb;
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 36px;
+    color: #1f2937;
+}
+.ima{
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    height: 150px;
+    width:150px;
+    
+    border: solid 2px #3882f6;
+}
+.terceira{
+    padding: 20%;
+    color: #1f2937;
+    font-size:36px ;
+    font-style: italic;
+}
+.quarta{
+    background-color: #3882f6;
+    margin: 0% 15% 5% 15%;
+    padding: 3%;
+    border-radius: 20px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.b2{
+    border-radius: 10px;
+    color: #e5e7eb;
+    font-size: 16px;
+    font-weight: bolder;
+    border: 2px solid #e5e7eb;
+    background-color: transparent;
+    padding: 0.5% 2% 0.5% 2%;
+}
+.b2:hover{
+    color: #1f2937;
+    background-color: #e5e7eb;
+}
+footer{
+    padding:3%;
+
+    background-color: #1f2937;
+    color: wheat;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
